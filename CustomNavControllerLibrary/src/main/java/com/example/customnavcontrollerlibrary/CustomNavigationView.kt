@@ -18,7 +18,7 @@ import java.lang.ref.WeakReference
 
 fun NavigationView.customSetUpWithNavController(
     navController: NavController,
-    closeDrawerLayoutDelay: Long = 0,
+    closeDrawerLayoutDelay: Long = 150,
     @AnimRes @AnimatorRes enterAnim: Int = R.anim.nav_default_enter_anim,
     @AnimRes @AnimatorRes exitAnim: Int = R.anim.nav_default_exit_anim,
     @AnimRes @AnimatorRes popEnterAnim: Int = R.anim.nav_default_pop_enter_anim,
